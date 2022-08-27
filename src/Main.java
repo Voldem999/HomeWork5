@@ -44,6 +44,22 @@ public class Main {
 
         //Задача 3
 
+        for (int i = days.length - 1; i >= 0; i--) {
+            System.out.print(days[i] + ",");}
+        {System.out.println();}
 
+        for (int i = liters.length - 1; i >= 0; i--) {
+            System.out.print(liters[i] + ",");}
+        {System.out.println();}
+
+        for (int i = seasons.length - 1; i >= 0; i--) {
+            System.out.print(seasons[i] + ",");}
+        {System.out.println();}
+
+        // Задача 4
+
+        for (int i = 0; i < days.length; i++) {
+            if (days[i] % 2 != 0) { days[i]++;
+            System.out.print(days[i] + ",");}}
 
     }}
